@@ -43,8 +43,13 @@ Continua a leggere per scoprire tutte le funzionalità offerte e come utilizzarl
 3. **Report Gruppi aggiungti e messaggi inviati:**
    /gruppi
 
-4. **Rimuovi Bot da un Gruppo:**
+4.  **Rimuovi Bot da un Gruppo:**
    /deletegruppo NomeGruppo
+
+6.  **Imposta Numero mesaggi spam/day:**
+   /setNmessaggi numero
+
+   
 
 Grazie per aver scelto il Bot Telegram Promozionale per promuovere il tuo contenuto! 🚀📣
 
