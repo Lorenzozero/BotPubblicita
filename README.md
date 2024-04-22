@@ -51,7 +51,8 @@ Continua a leggere per scoprire tutte le funzionalità offerte e come utilizzarl
 6.  **Imposta Numero mesaggi spam/day:**
    /setNmessaggi numero
 
-   
+   ---
+
 
 Grazie per aver scelto il Bot Telegram Promozionale per promuovere il tuo contenuto! 🚀📣
 
