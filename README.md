@@ -1,6 +1,7 @@
 # 🤖 Benvenuto al Bot Telegram Promozionale! 📣
 
-Questo bot offre un modo automatizzato per promuovere con messaggi attività o servizi in gruppi Telegram rilevanti, aumentando la visibilità del tuo contenuto. Continua a leggere per scoprire tutte le funzionalità offerte e come utilizzarlo al meglio!
+Questo bot offre un modo automatizzato per promuovere con messaggi attività o servizi in gruppi Telegram rilevanti, aumentando la visibilità del tuo contenuto. 
+Continua a leggere per scoprire tutte le funzionalità offerte e come utilizzarlo al meglio!
 
 ---
 
