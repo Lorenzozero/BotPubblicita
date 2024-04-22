@@ -25,10 +25,10 @@ Continua a leggere per scoprire tutte le funzionalità offerte e come utilizzarl
 ### 💡 Comandi Disponibili:
 
 - `/start`: Avvia il bot partendo con la sua funzione pricipale se è all interno di gruppi spammera il mesaggio promozionale 3 volte al giorno in orari random per ogni gruppo, farà anche un check se ci sono gruppi in cui può unirsi in base alle parole memorizzate nell array e i filtri impostati si unirà avvisandolo utente in caso positivo, in più mostra un messaggio di benvenuto .
-- `/aggiungiparola [parola_chiave]`: Aggiunge una nuova parola chiave per la ricerca dei gruppi.
+- `/aggiungiparola`: Aggiunge una nuova parola chiave per la ricerca dei gruppi.
 - `/editmessage`: Modifica il messaggio promozionale inviato nei gruppi.
 - `/gruppi`: manda un mesaggio con il numero di gruppi in cui il bot e dentro se maggiore di 0 restuisce anche i rispettivi nomi 
-- `/deletegruppo [nome_gruppo]`: Rimuove il bot da un gruppo specifico.
+- `/deletegruppo`: Rimuove il bot da un gruppo specifico.
 -  `/setNmessaggi `: Imposta il numero di messaggi inviati al giorno per gruppo
 
 
