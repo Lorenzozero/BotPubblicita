@@ -1,64 +1,36 @@
-# 🤖 Benvenuto al Bot Telegram Promozionale! 📣
+# Bot Pubblicitario Telegram
 
-Questo bot offre un modo automatizzato per promuovere con messaggi attività o servizi in gruppi Telegram rilevanti, aumentando la visibilità del tuo contenuto. 
-Continua a leggere per scoprire tutte le funzionalità offerte e come utilizzarlo al meglio!
+Questo progetto è un bot Telegram progettato per inviare messaggi promozionali a gruppi specifici su Telegram. Il bot è stato implementato utilizzando la libreria `python-telegram-bot` per Python.
 
----
+## Funzionalità
 
-### 🚀 Funzionalità Principali:
+Il bot offre le seguenti funzionalità:
 
-1. **Ricerca e Unione Gruppi:**
-   - Il bot cerca e si unisce automaticamente a gruppi Telegram che corrispondono alle parole chiave specificate dall utente.
+- Invio di messaggi promozionali a gruppi specifici su Telegram.
+- Modifica del messaggio promozionale.
+- Visualizzazione degli ID dei gruppi in cui vengono inviati i messaggi promozionali.
+- Aggiunta manuale di ID di gruppi per l'invio dei messaggi promozionali.
+- Impostazione del numero di messaggi promozionali da inviare al giorno per gruppo.
+- Fermare temporaneamente l'invio dei messaggi promozionali.
+- Ferma il bot.
 
-2. **Spam Messaggi Promozionali:**
-   - Invia messaggi promozionali preimpostati fino a tre volte al giorno in orari casuali all'interno dei gruppi pertinenti.
+## Come utilizzare il bot
 
-3. **Configurazione Personalizzata:**
-   - Gli utenti possono aggiungere, rimuovere e modificare le parole chiave di ricerca direttamente dal bot.
-   - È possibile modificare il messaggio promozionale e impostare il numero di volte che verrà inviato.
+Per utilizzare il bot, è necessario seguire i passaggi:
 
-4. **Controllo Semplice:**
-   - Il bot fornisce un'interfaccia intuitiva per gestire le impostazioni e visualizzare lo stato delle attività.
+1. Avviare il bot utilizzando il comando `/start`.
+2. Modificare il messaggio promozionale utilizzando il comando `/editmessage [nuovo messaggio]`.
+3. Aggiungere manualmente gli ID dei gruppi utilizzando il comando `/aggiungiidgruppo`.
+4. Impostare il numero di messaggi promozionali da inviare al giorno per gruppo utilizzando il comando `/setNmessaggi [numero]`.
+5. Inviare il messaggio promozionale a tutti i gruppi utilizzando il comando `/invio`.
+6. Fermare temporaneamente l'invio dei messaggi promozionali utilizzando il comando `/stop`.
+7. Consultare l'elenco dei comandi disponibili utilizzando il comando `/help`.
 
----
+## Requisiti
 
-### 💡 Comandi Disponibili:
+Per eseguire il bot è necessario disporre di Python e delle seguenti librerie:
 
-- `/start`: Avvia il bot partendo con la sua funzione pricipale se è all interno di gruppi spammera il mesaggio promozionale 3 volte al giorno in orari random per ogni gruppo, farà anche un check se ci sono gruppi in cui può unirsi in base alle parole memorizzate nell array e i filtri impostati si unirà avvisandolo utente in caso positivo, in più mostra un messaggio di benvenuto .
-- `/aggiungiparola`: Aggiunge una nuova parola chiave per la ricerca dei gruppi.
-- `/editmessage`: Modifica il messaggio promozionale inviato nei gruppi.
-- `/gruppi`: manda un mesaggio con il numero di gruppi in cui il bot e dentro se maggiore di 0 restuisce anche i rispettivi nomi 
-- `/deletegruppo`: Rimuove il bot da un gruppo specifico.
--  `/setNmessaggi `: Imposta il numero di messaggi inviati al giorno per gruppo
-
-
----
-
-### 📝 Esempi di Utilizzo:
-
-1. **Aggiungi Parola Chiave:**
-    /aggiungiparola esempio
-  
-2. **Modifica Messaggio Promozionale:**
-   /editmessage
-
-3. **Report Gruppi aggiungti e messaggi inviati:**
-   /gruppi
-
-4.  **Rimuovi Bot da un Gruppo:**
-   /deletegruppo NomeGruppo
-
-6.  **Imposta Numero mesaggi spam/day:**
-   /setNmessaggi numero
-
-   ---
-
-
-Grazie per aver scelto il Bot Telegram Promozionale per promuovere il tuo contenuto! 🚀📣
-
-
-
-
-
-
+- `python-telegram-bot`: Per l'interfacciamento con l'API di Telegram.
+- `random`: Per la generazione di numeri casuali.
+- `time`: Per la gestione del tempo.
 
