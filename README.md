@@ -25,6 +25,7 @@ Per utilizzare il bot, è necessario seguire i passaggi:
 5. Inviare il messaggio promozionale a tutti i gruppi utilizzando il comando `/invio`.
 6. Fermare temporaneamente l'invio dei messaggi promozionali utilizzando il comando `/stop`.
 7. Consultare l'elenco dei comandi disponibili utilizzando il comando `/help`.
+   P.S.(il bot deve essere nei gruppi coi permessi)
 
 ## Requisiti
 
